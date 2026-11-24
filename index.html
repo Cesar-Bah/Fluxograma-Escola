@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluxograma Interativo - César</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Descubra seu Perfil de Estudo</h1>
+        
+        <!-- Caixa onde a pergunta ou resultado vai aparecer -->
+        <div id="caixa-fluxo" class="card">
+            <p id="texto-pergunta">Carregando...</p>
+            
+            <!-- Área dos botões de resposta -->
+            <div id="area-botoes" class="botoes"></div>
+        </div>
+
+        <!-- Botão para recomeçar (aparece apenas no final) -->
+        <button id="btn-reiniciar" class="btn-restart" onclick="iniciarFluxo()" style="display: none;">
+            Recomeçar Teste
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
